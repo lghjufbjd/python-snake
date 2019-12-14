@@ -1,11 +1,17 @@
-from math import *
+from bcolors import bcolors
+from menu import Menu
+from map import *
 
-print("aaaaaaaaa")
-my_num = 5
-print(str(my_num) + "essa")
-print(min(7, 5))
-print(round(1.5))
-print(sqrt(3.7))
-name = input("name: ")
-print(name)
-friends = ["d", "d", "d"]
+#Menu.menu_draw("")
+#Menu.menu_choice("", input())
+
+map_spawn()
+map_draw()
+input("")
+map_move("up")
+map_draw()
+
+
+
+
+
